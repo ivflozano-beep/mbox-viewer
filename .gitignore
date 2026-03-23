@@ -6,3 +6,5 @@ obj/
 *.suo
 *.nupkg
 TestResults/
+dist/MboxViewer/
+dist/MboxViewer_R2/

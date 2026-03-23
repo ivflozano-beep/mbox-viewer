@@ -1,5 +1,5 @@
-using System.IO;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.ComponentModel;
 using System.Windows.Data;
 using Microsoft.Win32;
@@ -32,12 +32,12 @@ public sealed class MainViewModel : ViewModelBase
         Messages = new ObservableCollection<EmailMessage>();
         NavigationItems =
         [
-            new NavigationItem { Key = "inbox", Icon = "I", Title = "Recibidos" },
-            new NavigationItem { Key = "unread", Icon = "U", Title = "No leidos" },
-            new NavigationItem { Key = "starred", Icon = "*", Title = "Destacados" },
-            new NavigationItem { Key = "archive", Icon = "A", Title = "Archivados" },
-            new NavigationItem { Key = "trash", Icon = "T", Title = "Papelera" },
-            new NavigationItem { Key = "all", Icon = "#", Title = "Todos" }
+            new NavigationItem { Key = "inbox", Icon = "RE", Title = "Recibidos" },
+            new NavigationItem { Key = "unread", Icon = "NL", Title = "No leidos" },
+            new NavigationItem { Key = "starred", Icon = "DE", Title = "Destacados" },
+            new NavigationItem { Key = "archive", Icon = "AR", Title = "Archivados" },
+            new NavigationItem { Key = "trash", Icon = "PA", Title = "Papelera" },
+            new NavigationItem { Key = "all", Icon = "TO", Title = "Todos" }
         ];
 
         FilteredMessages = CollectionViewSource.GetDefaultView(Messages);
