@@ -8,3 +8,4 @@ obj/
 TestResults/
 dist/MboxViewer/
 dist/MboxViewer_R2/
+dist/*.zip
